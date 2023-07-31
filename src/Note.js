@@ -7,10 +7,10 @@ function Note(props) {
 
     return (
         <div className={classes.note} style={{ background: note.color }}>
-            <h1 className={classes.title}>
+            <h1 className={classes.title} style={{ wordWrap: "break-word" }}>
                 {note.title}
             </h1>
-            <p>
+            <p style={{ wordWrap: "break-word" }}>
                 {note.description}
             </p>
             <div className={classes.datetime}>
