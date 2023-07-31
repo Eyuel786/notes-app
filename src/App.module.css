@@ -1,0 +1,31 @@
+.app {
+  background-color: rgb(0, 151, 121);
+  min-height: 100vh;
+  padding: 8px;
+}
+
+.notesContainer {
+  width: 70vw;
+  display: flex;
+  margin: 40px auto;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.addBtn {
+  padding: 0;
+  border: none;
+}
+
+.addBtn:hover {
+  cursor: pointer;
+}
+
+.addBox {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(2, 138, 111);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

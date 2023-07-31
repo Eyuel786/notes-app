@@ -1,0 +1,43 @@
+.note {
+    background-color: #fff;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    color: #fff;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.title {
+    font-size: 22px;
+}
+
+.deleteBtn {
+    position: absolute;
+    border-radius: 50%;
+    top: -20px;
+    right: -20px;
+    background-color: rgb(242, 0, 0);
+    color: #fff;
+    height: 23px;
+    width: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+.deleteBtn:hover {
+    cursor: pointer;
+}
+
+.datetime {
+    display: flex;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 5px;
+}
